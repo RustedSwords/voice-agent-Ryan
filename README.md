@@ -13,9 +13,9 @@ This project is a real-time voice-based scheduling agent that collects user info
 [Link text](src/audio_log.wav)
 
 
-### 2) Calendar screenshot (Calendar_ss folder)
+### 2) Calendar screenshot
 
-![Calendar event created](src/calendar_ss.png "Calendar event was created")
+![Calendar event created](src/Calendar_ss.png "Calendar event was created")
 
 ## Assignment overview
 
