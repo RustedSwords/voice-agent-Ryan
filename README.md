@@ -8,9 +8,12 @@ This project is a real-time voice-based scheduling agent that collects user info
 
 ## Assets (interactive media)
 
-### 1) Audio log (src folder)
+### 1) Audio log 
 
-[Link text](src/audio_log.wav)
+<audio controls>
+  <source src="src/audio_log.wav" type="audio/mpeg">
+  ...
+</audio>
 
 
 ### 2) Calendar screenshot
