@@ -10,7 +10,7 @@ This project is a real-time voice-based scheduling agent that collects user info
 
 ### 1) Audio log 
 
-![Audio log](https://storage.vapi.ai/019d076c-87ff-7bb8-a8da-992bd648fd9b-1773946152175-d868d1c4-9cde-4c6e-b8a4-b2cfe8f96179-stereo.wav)
+https://storage.vapi.ai/019d076c-87ff-7bb8-a8da-992bd648fd9b-1773946152175-d868d1c4-9cde-4c6e-b8a4-b2cfe8f96179-stereo.wav
 
 
 ### 2) Calendar screenshot
