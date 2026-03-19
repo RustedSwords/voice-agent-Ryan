@@ -10,12 +10,7 @@ This project is a real-time voice-based scheduling agent that collects user info
 
 ### 1) Audio log (src folder)
 
-Click play to listen to the WAV conversation demo (replace `src/voice_demo.wav` with your actual file path):
-
-<audio controls>
-  <source src="src/audio_log.wav" type="audio/wav">
-  Your browser does not support the audio element.
-</audio>
+[Link text](src/audio_log.wav)
 
 
 ### 2) Calendar screenshot (Calendar_ss folder)
