@@ -11,7 +11,7 @@ This project is a real-time voice-based scheduling agent that collects user info
 ### 1) Audio log 
 
 <audio controls>
-  <source src="src\audio_log.wav" type="audio/wav">
+  <source src="src\audio_log.mp3" type="audio/mp3">
   Your browser does not support the audio element.
 </audio>
 
