@@ -5,19 +5,25 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 import datetime
 import os
+import json
 
 SCOPES = ['https://www.googleapis.com/auth/calendar.events']
 
 app = FastAPI()
 
-# Load credentials from json file or run the OAuth flow if not available
-if os.path.exists('token.json'):
-    creds = Credentials.from_authorized_user_file('token.json', SCOPES)
+creds = None
+
+# Load from environment instead of file
+if os.getenv("GOOGLE_TOKEN"):
+    creds = Credentials.from_authorized_user_info(
+        json.loads(os.getenv("GOOGLE_TOKEN")), SCOPES
+    )
 else:
-    flow = InstalledAppFlow.from_client_secrets_file('credentials.json', SCOPES)
-    creds = flow.run_console(port=0)
-    with open('token.json', 'w') as token_file:
-        token_file.write(creds.to_json())
+    raise Exception("Missing Google token")
+
+flow = InstalledAppFlow.from_client_config(
+    json.loads(os.getenv("GOOGLE_CREDENTIALS")), SCOPES
+)
 
 service = build('calendar', 'v3', credentials=creds)
 
