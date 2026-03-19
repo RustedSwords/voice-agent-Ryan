@@ -13,7 +13,7 @@ This project is a real-time voice-based scheduling agent that collects user info
 https://storage.vapi.ai/019d076c-87ff-7bb8-a8da-992bd648fd9b-1773946152175-d868d1c4-9cde-4c6e-b8a4-b2cfe8f96179-stereo.wav
 
 ### 2) Event Created
-
+The following is a screenshot from the transcripts log.
 ![Calendar event created](src/Event_created.png "Calendar event was created")
 
 ### 3) Calendar screenshot
