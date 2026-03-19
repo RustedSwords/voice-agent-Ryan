@@ -3,8 +3,8 @@
 This project is a real-time voice-based scheduling agent that collects user info, confirms details, and creates a calendar event.
 
 ## Live deployment
-- Demo URL: https://vapi.ai/?demo=true&shareKey=0b7b5d62-d2f9-4cb3-bfd1-9a063e93378b&assistantId=310bcb8b-08c6-4c4a-afe5-453ccf6895e6
 - Deployed URL: https://voice-agent-backend-uewn.onrender.com/
+- Demo URL: https://vapi.ai/?demo=true&shareKey=0b7b5d62-d2f9-4cb3-bfd1-9a063e93378b&assistantId=310bcb8b-08c6-4c4a-afe5-453ccf6895e6
 
 ## Assets (interactive media)
 
@@ -12,10 +12,13 @@ This project is a real-time voice-based scheduling agent that collects user info
 
 https://storage.vapi.ai/019d076c-87ff-7bb8-a8da-992bd648fd9b-1773946152175-d868d1c4-9cde-4c6e-b8a4-b2cfe8f96179-stereo.wav
 
+### 2) Event Created
 
-### 2) Calendar screenshot
+![Calendar event created](src/Event_created.png "Calendar event was created")
 
-![Calendar event created](src/Calendar_ss.png "Calendar event was created")
+### 3) Calendar screenshot
+
+![Calendar Screenshot](src/Calendar_ss.png)
 
 ## Assignment overview
 
@@ -36,9 +39,10 @@ The app:
 
 ## How to test (deployed)
 
-1. Open the Demo URL.
-2. Follow voice prompts / webhook flow to submit a scheduling request.
-3. Verify event creation in Google Calendar.
+1. Open the Deployment URL.
+2. Open the Demo URL.
+3. Follow voice prompts / webhook flow to submit a scheduling request.
+4. Verify event creation in Google Calendar.
 
 ## How to run locally (optional)
 
